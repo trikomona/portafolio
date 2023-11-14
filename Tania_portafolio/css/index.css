@@ -1,0 +1,29 @@
+/* modificacion del body */
+body {
+    background-color: #FDA403;
+}
+
+.nav-link{
+color: #FDA403;
+}
+.container
+{
+
+    background-color: #FDA403;
+}
+/* división despues del navbar */
+   .myDiv {
+
+  border: 80px outset #FDA403;   
+background-color: #FDA403;
+}
+.card-body
+{
+    background-color: #FDA403;
+   border-color: #FDA403;
+}
+/* div del texto de debajo de las imagenes */
+.myDivTxt{
+    text-align: center;
+    font-style: italic;
+}
