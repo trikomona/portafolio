@@ -6,3 +6,7 @@ body {
 .nav-link{
 color: #FDA403;
 }
+.center-pdf {
+    display: block;
+    margin: 0 auto;
+  }

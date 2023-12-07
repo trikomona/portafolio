@@ -6,3 +6,49 @@ body {
 .nav-link{
 color: #FDA403;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .animada {
+    animation: girar 3s linear infinite; 
+  }
+
+  /*  animación */
+  @keyframes girar {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg); 
+    }
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  .texto-centrado {
+    text-align: center;
+    animation: animacion 2s ease-in-out infinite; 
+  }
+  .texto-centrado2 {
+    text-align: center;
+    font-size: 32px; 
+    color: black; 
+  }
+
+  @keyframes animacion {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
